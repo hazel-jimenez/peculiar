@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font family and background color*/
+    background-color: lightpink;
+    color: darkgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    padding: 48px;
+    background-color: plum;
+}
+
+header h1 {
+    font-weight: lighter;
+    font-size: 36px;
+    color: black;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+text-decoration: none;
+color: cornflowerblue;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-weight: 22px;
+}
