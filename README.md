@@ -9,7 +9,7 @@
 
   ## Usage
   The use of my portfolio is for employers to take a look at my work and get to know a little about me. 
-  ![ScreenShot](assets/images/portfolio.jpg)
+  ![ScreenShot](/assets/images/readme.jpg)
   </br>
 
   ## Questions
