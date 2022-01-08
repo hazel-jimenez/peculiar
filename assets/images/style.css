@@ -53,6 +53,7 @@ color: deeppink;
 
 #parent-hazel {
     display: flex;
+    flex-flow: row-reverse;
 }
 
 #about-me {
@@ -62,7 +63,7 @@ color: deeppink;
 }
 
 #hazel {
-    width: 30%;
+    width: 300px;
     
 }
 
@@ -104,4 +105,3 @@ h2 {
         width: 150px;
     }
 }
-
