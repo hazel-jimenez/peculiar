@@ -6,7 +6,7 @@
 body {
     /*font family and background color*/
     background-color: lightpink;
-    color: darkgrey;
+    color: rgb(75, 75, 75);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -55,6 +55,12 @@ color: deeppink;
     display: flex;
 }
 
+#about-me {
+    padding: 36px;
+    background-color: lightblue;
+    text-align: center;
+}
+
 #hazel {
     width: 30%;
     
@@ -62,5 +68,40 @@ color: deeppink;
 
 h2 {
     text-align: center;
+}
+
+#moon {
+    width: 45%;
+}
+
+.project-small {
+    width: 400px;
+    padding: 25px;
+    height: 84%;
+    
+}
+
+#my-work {
+    padding: 36px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#contact-me {
+    padding: 36px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.small-projects {
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+@media only screen and (max-width: 800px) {
+    .project-small, #hazel {
+        width: 150px;
+    }
 }
 
